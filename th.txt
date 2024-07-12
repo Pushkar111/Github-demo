@@ -1,0 +1,55 @@
+===============================================================================
+|                                       Github                                |
+===============================================================================
+
+=> Git - Version control system
+       - popular, free & open source, fast & scalable
+
+=> Github - website that allows Developers to store and manage that code using git.
+          - https://www.github.com
+
+          -> Setting up Git
+                - vs code
+                - windows(github)
+                - mac(Terminal)
+
+
+=> Configuring git
+-------------------- 
+    -> git --version
+    -> git config --user.name "Pushkar Modi"
+    -> git config --user.email "pushkarmodi111@gmail.com"
+    -> git config --list
+
+=> Clone & Status
+--------------------
+    -> git clone <-some link->
+    -> git clone https://github.com/Pushkar111/Yesha_Learn_Coding.git
+
+    -> git status
+        - change (modified)
+        - new file (untracked)
+        - file is ready to committed -> add (staged)
+        - unchanged -> commit (unmodified)
+
+=> Add & Commit & push
+----------------------
+    -> add - adds new or changed files in your working directory to the git staging area.
+    -> git add <-file name->
+    -> git add index.html
+    
+    -> commit - it is the legal record of change
+    -> git commit -m "some message"
+
+    -> push - upload local(laptop) repo content to remote(github) repo 
+    -> git push origin main
+    -> git push -u origin main (To create shortcut for next time push[git push])
+
+=> init
+----------------------
+    -> init - used to create a new git repo
+    -> git init
+    -> git remote add origin https://github.com/Pushkar111/Github-demo.git
+    -> git remote -v (To verify remote)
+    -> git branch (To check branch)
+    -> git branch -M main (To rename branch)
